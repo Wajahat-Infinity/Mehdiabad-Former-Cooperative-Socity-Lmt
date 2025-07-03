@@ -257,20 +257,20 @@ export default function AuthModal({ onClose, onLogin }: AuthModalProps) {
           </div>
 
           {isLogin && (
-            // <div className="bg-blue-50 p-3 rounded-lg">
-            //   <h4 className="font-medium text-blue-800 mb-2">Demo Credentials:</h4>
-            //   <div className="text-sm text-blue-700 space-y-1">
-            //     <p>
-            //       <strong>Admin:</strong> admin@mfcs.com / admin123
-            //     </p>
-            //     <p>
-            //       <strong>Farmer:</strong> ahmad@example.com / farmer123
-            //     </p>
-            //     <p>
-            //       <strong>Unverified:</strong> unverified@example.com / test123
-            //     </p>
-            //   </div>
-            // </div>
+            <div className="bg-blue-50 p-3 rounded-lg">
+              <h4 className="font-medium text-blue-800 mb-2">Demo Credentials:</h4>
+              <div className="text-sm text-blue-700 space-y-1">
+                <p>
+                  <strong>Admin:</strong> admin@mfcs.com / admin123
+                </p>
+                <p>
+                  <strong>Farmer:</strong> ahmad@example.com / farmer123
+                </p>
+                <p>
+                  <strong>Unverified:</strong> unverified@example.com / test123
+                </p>
+              </div>
+            </div>
           )}
 
           <Button
